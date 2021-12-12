@@ -1,3 +1,4 @@
+import Cookies from "js-cookie";
 import Head from "next/head";
 import Image from "next/image";
 import Navabr from "../components/navbar";

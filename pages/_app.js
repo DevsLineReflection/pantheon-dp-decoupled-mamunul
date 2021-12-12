@@ -1,8 +1,10 @@
 import Layout from "../components/layout";
 import "../styles/globals.css";
 import Head from "next/head";
+import axios from "axios";
 
 function MyApp({ Component, pageProps }) {
+  axios.defaults.headers = { "Access-Control-Allow-Origin": "*" };
   return (
     <>
       <Head>
